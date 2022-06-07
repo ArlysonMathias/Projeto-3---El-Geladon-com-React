@@ -1,12 +1,11 @@
-import React from "react"
+import React from "react";
 import "./style.css";
 import toast from "react-hot-toast";
 
 const Cards = ({ palette }) => {
-
-  const errorMessage = ()=>{
-    toast.error("Sessão em densenvolvimento.")
-  }
+  const errorMessage = () => {
+    toast.error("Sessão em densenvolvimento.");
+  };
 
   return (
     <div className="card-container">
@@ -22,4 +21,3 @@ const Cards = ({ palette }) => {
 };
 
 export default Cards;
-
